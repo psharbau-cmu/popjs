@@ -1,0 +1,34 @@
+{
+  "name": "popjs",
+  "version": "0.0.1",
+  "description": "2D Game Engine with ECS Architecture",
+  "main": "pop.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "webkit": "0.0.0",
+    "webpack": "^1.13.3"
+  },
+  "scripts": {
+    "start":"webpack --progress --colors --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psharbau-cmu/popjs.git"
+  },
+  "keywords": [
+    "canvas",
+    "ecs",
+    "2d",
+    "game engine",
+    "entity component system",
+    "js"
+  ],
+  "author": "Patrick Sharbaugh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/psharbau-cmu/popjs/issues"
+  },
+  "homepage": "https://github.com/psharbau-cmu/popjs#readme"
+}
